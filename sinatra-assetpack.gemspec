@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "tilt", ">= 1.3.0"
   s.add_dependency "sinatra"
-  s.add_dependency "jsmin"
   s.add_dependency "rack-test"
+  s.add_development_dependency "jsmin"
   s.add_development_dependency "yui-compressor"
   s.add_development_dependency "sass"
   s.add_development_dependency "haml"
